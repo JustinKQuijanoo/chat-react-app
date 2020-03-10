@@ -22,3 +22,5 @@ const removeUser = (id) => { // Start of removeUser
 
     if(index !== -1) return users.splice(index, 1)[0];
 }
+
+const getUser = (id) => users.find((user) => user.id === id);
